@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
         } else if (distanceX < -100) {
             Toast.makeText(this, "Right", Toast.LENGTH_LONG).show();
         }
-
+        // Prueba
         // You can change the priority if you want to prioritize vertical or horizontal scrolling
         /*
         if (distanceX > 50) {
